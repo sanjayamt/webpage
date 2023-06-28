@@ -1,0 +1,189 @@
+* {
+     padding: 0;
+     margin: 0;
+}
+
+body {
+    background-color: rgb(169, 198, 189);
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif
+}
+
+#navbar {
+    display: inline-block;
+    height: 60px;
+    /* width: auto; */
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background-color: rgb(32, 85, 98);
+    /* border: 2px solid none; */
+    padding-top: 20px;
+    border-top: 2px solid #16120c;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: blue;
+    font-size: 25px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+a {
+    margin-right: 150px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+    width: 400px;
+}
+pre {
+    color: black;
+    width: 1000px;
+}
+
+div {
+    display: inline-block;
+}
+
+.container {
+    /* position: fixed; */
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+  /* align-items: center;
+  justify-content: center; */
+    border: 5px solid none;
+    /* background-color: aquamarine; */
+    /* background-color: rgb(32, 85, 98); */
+    /* width: 1493; */
+}
+
+img {
+  width: 250px;
+  /* max-height:25%; */
+  /* float: right; */
+  margin-left: 205px;
+}
+
+.text {
+  font-size: 18px;
+  float: left; 
+  padding-top: 5px 4px 1px 5px;
+  margin-left: 5px;
+  width: 800px;
+}
+
+.image {
+    padding: 2px 3px 4px 5px; 
+}
+
+#aboutMe {
+    position: absolute;
+    top: 250px;
+    width: 800px;
+    /* font-size: larger;
+    font-family:'Times New Roman', Times, serif */
+}
+
+
+
+#adrs {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#hide {
+    visibility: hidden;
+}
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#RTexp {
+    position: relative;
+    top: 400px;
+}
+
+#explist{
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+#edu {
+    position: relative;
+    top: 450px;
+}
+
+#edulist {
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+#pub {
+    position: relative;
+    top: 450px;
+}
+
+#publist {
+    padding-left: 30px;
+    line-height: 40px;
+}
+
+
+
+
+
+.PositionBox {
+    height: 500px; 
+    position: absolute;
+    
+}
+#Box1 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+#Box2 {
+    height: 100px;
+    width: 100px;
+    background-color: #f08804;
+    border: 2px solid black;
+}
+#Box3 {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    position: relative;
+    right: 40px;
+    top: 30px;
+}
+
+#vsp {
+    position: relative;
+    top: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
