@@ -5,23 +5,19 @@
 
 body {
     background-color: rgb(169, 198, 189);
-    margin-left: 150px;
+    margin-left: 500px;
     margin-right: 150px;
     font-size: larger;
     font-family:'Times New Roman', Times, serif
 }
 
 #navbar {
-    display: inline-block;
+    display: flex;
     height: 60px;
-    /* width: auto; */
     position: fixed;
     top: 0px;
     z-index: 10;
-    background-color: rgb(32, 85, 98);
-    /* border: 2px solid none; */
-    padding-top: 20px;
-    border-top: 2px solid #16120c;
+    align-items: center;
 }
 
 button {
@@ -29,8 +25,8 @@ button {
 }
 
 #logo {
-    color: blue;
-    font-size: 25px;
+    color: rgb(19, 31, 73);
+    font-size: 35px;
     margin-left: 10px;
     text-decoration: none;
 }
@@ -45,33 +41,17 @@ h1 {
     color: black;
     width: 400px;
 }
-pre {
-    color: black;
-    width: 1000px;
-}
-
-div {
-    display: inline-block;
-}
 
 .container {
-    /* position: fixed; */
-    display: inline-block;
+    display: flex;
     position: absolute;
     top: 80px;
-  /* align-items: center;
-  justify-content: center; */
     border: 5px solid none;
-    /* background-color: aquamarine; */
-    /* background-color: rgb(32, 85, 98); */
-    /* width: 1493; */
 }
 
 img {
   width: 250px;
-  /* max-height:25%; */
-  /* float: right; */
-  margin-left: 205px;
+  margin-left: 187px;
 }
 
 .text {
@@ -90,26 +70,6 @@ img {
     position: absolute;
     top: 250px;
     width: 800px;
-    /* font-size: larger;
-    font-family:'Times New Roman', Times, serif */
-}
-
-
-
-#adrs {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-}
-
-#hide {
-    visibility: hidden;
-}
-
-.contentBox {
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
 }
 
 #RTexp {
