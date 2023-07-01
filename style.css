@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *{
-	list-style: none;
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
 }
 
 body{
 	background: #f5f6fa;
-	/* width: 1200px; */
 	height: fit-content;
 }
 
@@ -20,10 +17,11 @@ body{
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 225px;
+	width: 250px;
 	height: 100%;
 	padding: 20px 0;
 	transition: all 0.5s ease;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper .sidebar .profile{
@@ -33,8 +31,8 @@ body{
 
 .wrapper .sidebar .profile img{
 	display: block;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
     border-radius: 50%;
 	margin: 0 auto;
 }
@@ -46,7 +44,7 @@ body{
 
 .wrapper .sidebar .profile p{
 	color: rgb(206, 240, 253);
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .wrapper .sidebar ul li a{
@@ -54,7 +52,7 @@ body{
 	padding: 13px 30px;
 	border-bottom: 1px solid #10558d;
 	color: rgb(241, 237, 237);
-	font-size: 16px;
+	font-size: 20px;
 	position: relative;
 }
 
@@ -63,8 +61,6 @@ body{
 	width: 30px;
 	display: inline-block;
 }
-
- 
 
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
@@ -108,8 +104,6 @@ body{
 	color: #a2ecff;
 }
 
- 
-
 body.active .wrapper .sidebar{
 	left: -225px;
 }
@@ -121,16 +115,15 @@ body.active .wrapper .section{
 
 .Home .aboutMe {
 	height: auto;
-	/* display: flex; */
-	/* align-items: center; */
-	padding-left:  240px;
-	width: 1000px;
-	
+	padding-left:  270px;
+	width: 1200px;
+	font-family: fantasy;
 }
 
 .Home .aboutMe p {
 	text-align: justify;
 	margin: 1em 0 0 0;
+	font-size: large;
   }
   p + p {
 	text-indent: 2em;
@@ -139,18 +132,127 @@ body.active .wrapper .section{
   
   #pub {
 	height: auto;
-    padding-left:  240px;
-	width: 1000px;
+    padding-left:  270px;
+	width: 1200px;
     
 }
 
 #publist {
 	text-align: justify;
 	margin: 1em 0 0 0;
-
-	/* text-indent: 2em;
-	margin: 0; */
-
     padding-left: 30px;
     line-height: 30px;
+	font-family: fantasy;
 }
+
+.list {
+	list-style: circle;
+}
+
+.PboxLink {
+	/* background-color: rgb(47, 139, 231); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(7, 2, 27);
+	border-radius: 8px;
+	font-family: fantasy;
+}
+
+.aboutMe .PboxLink .PLink {
+	display: inline;
+	
+}
+
+#RL {
+	font-style: normal;
+	margin-right: 2em; 
+	margin-left: 4em;
+}
+#RL1 {
+	font-style: normal;
+	margin-left: 2em;
+	margin-right: 1em;
+}
+
+/* Box properties */
+.Tcircle{
+	float: center;
+	height: auto;
+	padding-left:  270px;
+	width: 1200px;
+}
+
+.Tcircle h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+#cteach {
+	text-align: justify;
+	margin: 1em 0 0 0;
+	font-family: fantasy;
+	padding-left: 17px;
+}
+
+.Pcircle{
+	height: auto;
+	padding-left:  270px;
+	width: 1200px;
+}
+
+.Pcircle h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+
+#cpub {
+	text-align: justify;
+	margin: 1em 0 0 0;
+	font-family: fantasy;
+	padding-left: 17px;
+}
+
+/* For footer  */
+footer{
+	margin-left: 250px;
+	padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    width: 100vw;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.footer-content h2{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 2rem;
+	
+}
+
+.footer-content p{
+    max-width: 500px;
+	padding-left: 10px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #c8cbd0;
+	
+}
+
+.list a:hover {
+	color: #27bcda;
+}
+

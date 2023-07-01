@@ -7,17 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <!-- <script src="topbar.js"></script> -->
-   
+ 
 </head>
 <body>
    
     <div class="wrapper">
-        <!-- Topbar start-->
         <div class="section">
             <div class="top_navbar">
                 <div class="hamburger">
-                    <a href="index.html">
+                    <a href="#">
                         <i class="fas fa-bars"></i>
                         <span class="item">Home</span>
                     </a>
@@ -26,8 +24,6 @@
             </div>
              
         </div>
-        <!-- Topbar ends -->
-        <!-- sidebar begins -->
         <div class="sidebar">
             <div class="profile">
                 <img src="image.jpeg" alt="profile_picture">
@@ -43,19 +39,19 @@
                 </li>
                 <li>
                     <a href="mypublication.html">
-                        <span class="icon"><i class="fas fa-desktop"></i></span>
-                        <span class="item">My Publications</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <span class="icon"><i class="fas fa-pen-nib"></i></span>
                         <span class="item">Research</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <span class="item">Students</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class=" fas fa-chalkboard"></i></span>
                         <span class="item">Teaching</span>
                     </a>
                 </li>
@@ -68,16 +64,16 @@
                 <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-database"></i></span>
-                        <span class="item">Projects</span>
+                        <span class="item">Development</span>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <span class="icon"><i class="fas fa-chart-line"></i></span>
-                        <span class="item">Reports</span>
+                        <span class="icon"><i class="fas fa-school"></i></span>
+                        <span class="item">Conferences</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#">
                         <span class="icon"><i class="fas fa-user-shield"></i></span>
                         <span class="item">Admin</span>
@@ -88,28 +84,50 @@
                         <span class="icon"><i class="fas fa-cog"></i></span>
                         <span class="item">Settings</span>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </div>
         
     </div>
-        <!-- Sidebar ends -->
-    <!-- Home Content Begins -->
+
     <div class="Home">
         <div class="aboutMe">
             <p> 
                 Hi, I am working as an Assistant Professor in the Department of Mathematics at IIT Gandhinagar. My boroad area of research is in the realm of Algebraic Geometry. More specifically, I work on the problems related to vector bundles and related topics.
             </p>
+            <br>
+            
         </div>
     </div>
-    <!-- Home Content Begins -->
+    <div class="Tcircle">
+        <h2> Teaching: AY 2023-24 Semester I </h2>
+        <div id="cteach">   
+            <ul>
+                <li><a class="course"> MA 627 - Algebraic Topology</a></li>
+                <li><a class="course"> MA 101 - Linear Algebra and Calculus of Single Variable (Tutor)</a></li>
+            </ul>            
+            </div>
+        </div>
+        <br>
+        
+    <div class="Pcircle">
+        <h2>Recent Publications</h2>
+        <div id="cpub">
+        <ul>
+            <li>P. Adroja and S. Amrutiya, <i>On the extended Nori fundamental group scheme</i>, <a href= "https://arxiv.org/abs/2306.06861" target="_main"> arXiv:2306.06861.</a></li>
+            <li>S. Amrutiya, A. Jaiswal, <i>A gauge theoretic aspect of parabolic bundles over real curves</i>, <a href="https://arxiv.org/abs/2202.06210" target="_main"> arXiv:2202.06210.</a></li>
+            <li>S. Amrutiya, A. Jaiswal, <i>On d-holomorphic connections</i>, <a href="https://arxiv.org/abs/2208.04354" target="_main"> arXiv:2208.04354 (accepted in Proc. Indian Acad. Sci.)</a></li>
+        </ul>
+        </div>
+    </div>
+   
+    <footer>
+        <div class=”footer-content”>
+            <h3>Office Address</h3>
+            <p>AB06/344, IIT Gandhinagar</p>
+        </div>
+         <p>copyright &copy;2023 <a href=”#”>SA</a>  </p>
+    </footer>
 
-
-   <!-- <script>
-    var hamburger = document.querySelector(".hamburger");
-    hamburger.addEventListener("click", function(){
-        document.querySelector("body").classList.toggle("active");
-    })  
-   </script>  -->
 </body>
 </html>
