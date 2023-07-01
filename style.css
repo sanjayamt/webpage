@@ -5,6 +5,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Comic Sans MS, sans-serif;
 }
 
 body{
@@ -21,7 +22,7 @@ body{
 	height: 100%;
 	padding: 20px 0;
 	transition: all 0.5s ease;
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 }
 
 .wrapper .sidebar .profile{
@@ -52,7 +53,7 @@ body{
 	padding: 13px 30px;
 	border-bottom: 1px solid #10558d;
 	color: rgb(241, 237, 237);
-	font-size: 20px;
+	font-size: 15px;
 	position: relative;
 }
 
@@ -96,7 +97,7 @@ body{
 }
 
 .wrapper .section .top_navbar .hamburger a{
-	font-size: 28px;
+	font-size: 15px;
 	color: #f4fbff;
 }
 
@@ -117,13 +118,13 @@ body.active .wrapper .section{
 	height: auto;
 	padding-left:  270px;
 	width: 1200px;
-	font-family: fantasy;
+	/* font-family: fantasy; */
 }
 
 .Home .aboutMe p {
 	text-align: justify;
 	margin: 1em 0 0 0;
-	font-size: large;
+	font-size: normal;
   }
   p + p {
 	text-indent: 2em;
@@ -142,7 +143,7 @@ body.active .wrapper .section{
 	margin: 1em 0 0 0;
     padding-left: 30px;
     line-height: 30px;
-	font-family: fantasy;
+	/* font-family: fantasy; */
 }
 
 .list {
@@ -155,7 +156,7 @@ body.active .wrapper .section{
     border-style: solid;
     border-color: rgb(7, 2, 27);
 	border-radius: 8px;
-	font-family: fantasy;
+	/* font-family: Comic Sans MS, sans-serif; */
 }
 
 .aboutMe .PboxLink .PLink {
@@ -212,7 +213,7 @@ body.active .wrapper .section{
 #cpub {
 	text-align: justify;
 	margin: 1em 0 0 0;
-	font-family: fantasy;
+	/* font-family: fantasy; */
 	padding-left: 17px;
 }
 
