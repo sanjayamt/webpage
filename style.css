@@ -118,7 +118,6 @@ body.active .wrapper .section{
 	height: auto;
 	padding-left:  270px;
 	width: 1200px;
-	/* font-family: fantasy; */
 }
 
 .Home .aboutMe p {
@@ -143,7 +142,6 @@ body.active .wrapper .section{
 	margin: 1em 0 0 0;
     padding-left: 30px;
     line-height: 30px;
-	/* font-family: fantasy; */
 }
 
 .list {
@@ -151,28 +149,42 @@ body.active .wrapper .section{
 }
 
 .PboxLink {
-	/* background-color: rgb(47, 139, 231); */
-    border-width: 1px;
+    border-width: 0.5px;
     border-style: solid;
     border-color: rgb(7, 2, 27);
-	border-radius: 8px;
-	/* font-family: Comic Sans MS, sans-serif; */
+    border-radius: 8px;
 }
 
-.aboutMe .PboxLink .PLink {
+.PboxLink .PLink {
 	display: inline;
 	
 }
 
-#RL {
-	font-style: normal;
-	margin-right: 2em; 
-	margin-left: 4em;
+.socials{
+    list-style: none;
+    display: flex;
 }
-#RL1 {
-	font-style: normal;
-	margin-left: 2em;
-	margin-right: 1em;
+
+.socials li{
+    margin: 0 40px;
+}
+.socials a{
+    text-decoration: none;
+    /* color: #fff; */
+    /* border: 1.1px solid white; */
+    padding: 5px;
+
+    /* border-radius: 50%; */
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
 }
 
 /* Box properties */
@@ -184,7 +196,7 @@ body.active .wrapper .section{
 }
 
 .Tcircle h2{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 2rem;
@@ -204,7 +216,7 @@ body.active .wrapper .section{
 }
 
 .Pcircle h2{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 2rem;
@@ -213,7 +225,6 @@ body.active .wrapper .section{
 #cpub {
 	text-align: justify;
 	margin: 1em 0 0 0;
-	/* font-family: fantasy; */
 	padding-left: 17px;
 }
 
