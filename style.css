@@ -44,7 +44,7 @@ body{
   .container {
 	display: grid;
 	align-items: left; 
-	grid-template-columns: 1.5fr 8fr;
+	grid-template-columns: 1fr 10fr;
 	column-gap: 5px;
 	border-bottom: 4px solid #3d1795;
 	
