@@ -44,9 +44,10 @@ body{
   .container {
 	display: grid;
 	align-items: left; 
-	grid-template-columns: 1fr 10fr;
+	grid-template-columns: 3fr 0fr;
 	column-gap: 5px;
-	border-bottom: 4px solid #3d1795;
+	border-bottom: 2px solid #3d1795;
+	margin: 5px;
 	
    }
    
@@ -58,6 +59,7 @@ body{
    
    .text {
 	 font-size: 1rem;
+	 margin-left: 10px;
    }
 
 /* Home page content */
@@ -93,10 +95,15 @@ body{
 	margin: 1em 0 0 0;
 	font-family: fantasy;
 	padding-left: 17px;
+	line-height: 2em;
 }
 
 .list i{
-	color: #3d1795;
+	color: #5d5992;
+}
+
+.list a{
+	color: #47a3da;
 }
 
 .list a:hover {
@@ -114,14 +121,22 @@ body{
 	display: inline-block;
 }
 
+.pub-list i{
+	color: #5d5992;
+}
+
 .pub > ul > li > a {
-	padding: 1em 2em;
+	padding: 1em 1em;
 	display: inline-block;
-	color: rgb(67, 6, 233);
+	color: rgb(31, 5, 103);
 }
 
 .pub-list a{
 	color: #47a3da;
+}
+
+.pub-list a:hover {
+	color: rgb(18, 190, 12);
 }
 
 .socials{
@@ -142,7 +157,8 @@ body{
 }
 
 .socials a:hover i{
-    color: aqua;
+	color: rgb(18, 190, 12);
+    
 }
 
 /* Student page */
@@ -157,15 +173,18 @@ body{
 }
 
 .stud > ul > li > a {
-	padding: 1em 2em;
+	padding: 1em 1em;
 	display: inline-block;
 	color: rgb(67, 6, 233);
+}
+
+.stud > ul > li > a{
+	color: rgb(31, 5, 103);
 }
 
 .stud-list a{
 	color: #398db6e2;
 }
-
 
 
 
