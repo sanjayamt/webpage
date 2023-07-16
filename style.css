@@ -98,6 +98,12 @@ body{
 	line-height: 2em;
 }
 
+.TP-list {
+	margin: 1em 0 0 0;
+	padding-left: 17px;
+	line-height: 2em;
+}
+
 .list i{
 	color: #5d5992;
 }
