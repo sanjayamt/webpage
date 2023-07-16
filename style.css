@@ -105,7 +105,8 @@ body{
 }
 
 .list i{
-	color: #5d5992;
+/* 	color: #5d5992; */
+	color: rgb(31, 5, 103);
 }
 
 .list a{
@@ -128,7 +129,8 @@ body{
 }
 
 .pub-list i{
-	color: #5d5992;
+/* 	color: #5d5992; */
+	color: rgb(31, 5, 103);
 }
 
 .pub > ul > li > a {
@@ -189,7 +191,8 @@ body{
 }
 
 .stud-list a{
-	color: #398db6e2;
+/* 	color: #398db6e2; */
+	color: rgb(31, 5, 103);
 }
 
 
