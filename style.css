@@ -44,7 +44,7 @@ body{
   .container {
 	display: grid;
 	align-items: left; 
-	grid-template-columns: 3fr 0fr;
+	grid-template-columns: 3fr 0.3fr;
 	column-gap: 5px;
 	border-bottom: 2px solid #3d1795;
 	margin: 5px;
@@ -136,7 +136,7 @@ body{
 .pub > ul > li > a {
 	padding: 1em 1em;
 	display: inline-block;
-	color: rgb(31, 5, 103);
+	color: rgb(14, 7, 33);
 }
 
 .pub-list a{
@@ -161,7 +161,7 @@ body{
 .socials a i{
     font-size: 1.1rem;
     width: 20px;
-	color: #47a3da;
+	color: #172bdd;
 }
 
 .socials a:hover i{
@@ -195,9 +195,42 @@ body{
 	color: rgb(31, 5, 103);
 }
 
+/* Teaching page */
 
+.teaching > h3{
+	padding: 1em 1em;
+	display: inline-block;
+	color: rgb(14, 7, 33);
+}
 
+.teach-list > ul > a{
+	line-height: 2em;
+	color: rgb(58, 26, 145);
+}
 
+.teach-list > ul {
+	list-style: circle;
+	padding: 0 1.5em;
+	line-height: 2em;
+}
+
+.teach-list > ul > li {
+	margin: 0 1.5em;
+}
+
+.empty {
+    margin: 3em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #191355;
+    color: white;
+    text-align: center;
+  }
 
 
 
