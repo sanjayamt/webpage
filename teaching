@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <!-- Nagigation -->
+    <div class="topnav">
+      <a class="active" href="index.html">
+        <span class="icon"><i class="fas fa-home"></i></span>
+        <span class="item">Home</span>
+      </a>
+      <a href="mypublication.html">
+        <span class="icon"><i class="fas fa-pen-nib"></i></span>
+        <span class="item">Research</span>
+      </a>
+      <a href="teaching.html">
+        <span class="icon"><i class=" fas fa-chalkboard"></i></span>
+        <span class="item">Teaching</span>
+      </a>
+      <a href="students.html">
+        <span class="icon"><i class="fas fa-user-friends"></i></span>
+        <span class="item">Students</span>
+      </a>
+        <div class="topnav-right">
+        <a href="https://math.iitgn.ac.in">
+          <span class="icon"> <i class="fas fa-school"></i></span>
+          <span class="item">Department of Mathematics</span>
+          </a>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="text">
+        <h2>Sanjay Amrutiya</h2>
+        <p>Associate Professor</p>
+        <p>Department of Mathematics</p>
+        <p>IIT Gandhinagar - 382355</p>
+        <p>Office No.: AB06/344</p>
+        <p> <a class="fas fa-envelope"> E-mail: samrutiya AT iitgn DOT ac DOT in</a></p>
+      </div>
+      <div class="image">
+        <img src="image.jpeg">
+      </div>
+    </div>
+    <br>
+<!-- Teaching Page Start -->
+
+     <div class="teaching">
+      <h3>Teaching@IITGn</h3>
+    </div>
+    <div class="teach-list">
+      <!-- <ul> <a></a>
+        <li></li>
+        <li></li>
+      </ul> -->
+      <ul> <a> AY 2024-25 : Semester - I </a>
+          <li>MA510 - Topology</li>
+      </ul>
+      <ul> <a> AY 2023-24 : Semester - II </a>
+          <li>MA605 - Commutative Algebra</li>
+      </ul>
+      <ul> <a> AY 2023-24 : Semester - I </a>
+          <li>MA627 - Algebraic Topology</li>
+          <li>MA103 - Linear Algebra and Single Variable Calculus (Tutor)</li>
+      </ul>
+      <ul> <a> AY 2022-23 : Semester - II </a>
+        <li>MA606 - Commutative Algebra</li>
+        <li>MA 103 - Linear algebra and single variable calculus</li>
+      </ul>
+      <ul> <a>AY 2021-2022 : Semester - II</a>
+        <li>MA 628 - Algebra - II</li>
+      </ul>
+      <ul> <a>AY 2021-2022 : Semester - I</a>
+        <li>MA 510 - Topology</li>
+        <li>MA601 - Mathematical Methods for Engineers (Tutor)</li>
+      </ul>
+      <ul> <a>AY 2020-2021 : Semester - II (Summer Term)</a>
+        <li>MA 102 - Mathematics II</li>
+      </ul>
+      <ul> <a>AY 2020-2021 : Semester - II</a>
+        <li>MA 628 - Algebra II</li>
+      </ul>
+      <ul> <a>AY 2020-2021 : Semester - I</a>
+        <li>MA 627 - Algebraic Topology</li>
+      </ul>
+      <ul> <a>AY 2019-2020 : Semester - II</a>
+        <li>MA 102 - Mathematics - II (Tutor)</li>
+        <li>MA 629 - Introduction to Differential Geometry</li>
+      </ul>
+      <ul> <a>AY 2019-2020 : Semester - I</a>
+        <li>MA 627 - Algebraic Topology</li>
+      </ul>
+      <ul> <a>AY 2018-2019 : Semester - II</a>
+        <li>MA 102 - Mathematics - II (Linear Algebra)</li>
+        <li>MA 629 - Introduction to Differential Geometry</li>
+      </ul>
+      <ul> <a>AY 2018-2019 : Semester - I</a>
+        <li>MA 627 - Algebraic Topology</li>
+      </ul>
+      <ul> <a>AY 2017-2018 : Semester - II</a>
+        <li>MA 102 - Mathematics - II (Module-1: Linear Algebra)</li>
+        <li>MA 502 - Complex Analysis</li>
+      </ul>
+      <ul> <a>AY 2017-2018 : Semester - I</a>
+        <li>MA 627 - Algebraic Topology</li>
+      </ul>
+      <ul> <a>AY 2016-2017 : Semester - II</a>
+        <li>MA 510 - Topology</li>
+        <li>MA 606 - Introduction to de Rham cohomology</li>
+      </ul>
+      <ul> <a>AY 2016-2017 : Semester - I</a>
+        <li>MA 512 - Algebraic Topology</li>
+      </ul>
+      <ul> <a>AY 2015-2016 : Semester - II</a>
+        <li>MA 510 - Topology</li>
+        <li>MA 606 - Introduction to de Rham cohomology</li>
+      </ul>
+      <ul> <a>AY 2015-2016 : Semester - I</a>
+        <li>MA 512 - Algebraic Topology</li>
+      </ul>
+      <ul> <a>AY 2014-2015 : Semester - II</a>
+        <li>MA 510 - Topology</li>
+        <li>MA 606 - Introduction to de Rham cohomology</li>
+      </ul>
+      <ul> <a>AY 2014-2015 : Semester - I</a>
+        <li>MA 512 - Algebraic Topology</li>
+      </ul>
+    </div> 
+     <!-- footer -->
+  <div class="empty"> </div>
+
+  <div class="footer">
+      &#9827; &#9827; &#9827; &#9827; &#9827; &#9827; &#9827; &#9827; &#9827; 
+  </div>
+</body>
+</html>
+  
