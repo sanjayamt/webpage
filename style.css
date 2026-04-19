@@ -81,7 +81,7 @@ body{
 	line-height: 2em;
 }
 
-.TP-list  ul > li {
+.TPcircle ul > li {
 	display: inline-block;
 }
 
