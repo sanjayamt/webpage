@@ -96,6 +96,9 @@ body{
 	line-height: 2em;
 }
 
+.TP-list  ul > li {
+	display: inline-block;
+}
 
 /* Research Page */
 
