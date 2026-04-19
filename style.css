@@ -90,7 +90,7 @@ body{
     line-height: 2rem;
 }
 
-.TPcircle .list {
+.list {
 	text-align: justify;
 	margin: 1em 0 0 0;
 	/* font-family: fantasy; */
@@ -104,16 +104,16 @@ body{
 	line-height: 2em;
 }
 
-.TPcircle .list i{
+.list i{
 /* 	color: #5d5992; */
 	color: rgb(31, 5, 103);
 }
 
-.TPcircle .list a{
+.list a{
 	color: #47a3da;
 }
 
-.TPcircle .list a:hover {
+.list a:hover {
 	color: rgb(18, 190, 12);
 } 
 
