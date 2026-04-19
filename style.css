@@ -76,14 +76,7 @@ body{
 	font-size: normal;
   }
 
-.TPcircle{
-	float: center;
-	height: auto;
-	padding-left:  20px;
-	width: 1200px;
-}
-
-.TP-list {
+.TPcircle .TP-list {
 	padding: 0 3em;
 	line-height: 2em;
 }
