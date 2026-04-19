@@ -83,13 +83,6 @@ body{
 	width: 1200px;
 }
 
-.TPcircle h2{
-    font-size: 1.5rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 2rem;
-}
-
 .TP-list {
 	padding: 0 3em;
 	line-height: 2em;
