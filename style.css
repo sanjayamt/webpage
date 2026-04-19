@@ -104,7 +104,7 @@ body{
 	line-height: 2em;
 }
 
-.list i{
+/* .list i{
 /* 	color: #5d5992; */
 	color: rgb(31, 5, 103);
 }
@@ -115,7 +115,7 @@ body{
 
 .list a:hover {
 	color: rgb(18, 190, 12);
-}
+} */
 
 /* Research Page */
 
