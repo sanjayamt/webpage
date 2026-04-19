@@ -90,7 +90,32 @@ body{
     line-height: 2rem;
 }
 
+.TPcircle .list {
+	text-align: justify;
+	margin: 1em 0 0 0;
+	/* font-family: fantasy; */
+	padding-left: 17px;
+	line-height: 2em;
+}
 
+.TP-list {
+	margin: 1em 0 0 0;
+	padding-left: 17px;
+	line-height: 2em;
+}
+
+.TPcircle .list i{
+/* 	color: #5d5992; */
+	color: rgb(31, 5, 103);
+}
+
+.TPcircle .list a{
+	color: #47a3da;
+}
+
+.TPcircle .list a:hover {
+	color: rgb(18, 190, 12);
+} 
 
 /* Research Page */
 
